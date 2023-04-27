@@ -1,5 +1,5 @@
 {
-    "name": "sruuuua/database",
+    "name": "sruuua/database",
     "description": "Database connection for sruuua framework",
     "type": "library",
     "autoload": {
