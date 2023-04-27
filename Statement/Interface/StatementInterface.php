@@ -1,8 +1,8 @@
 <?php
 
-namespace Sruuua\Database\Database\Statement\Interface;
+namespace Sruuua\Database\Statement\Interface;
 
-use Sruuua\Database\Database\Result\Result;
+use Sruuua\Database\Result\Result;
 
 interface StatementInterface
 {

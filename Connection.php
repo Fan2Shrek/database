@@ -1,9 +1,9 @@
 <?php
 
-namespace Sruuua\Database\Database;
+namespace Sruuua\Database;
 
-use Sruuua\Database\Database\Statement\Statement;
-use Sruuua\Database\Kernel;
+use Sruuua\Database\Statement\Statement;
+use App\Kernel;
 use \PDO;
 use \PDOException;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Sruuua\Database\Database\Statement;
+namespace Sruuua\Database\Statement;
 
-use Sruuua\Database\Database\Result\Result;
-use Sruuua\Database\Database\Statement\Interface\StatementInterface;
+use Sruuua\Database\Result\Result;
+use Sruuua\Database\Statement\Interface\StatementInterface;
 use \PDO;
 use \PDOStatement;
 

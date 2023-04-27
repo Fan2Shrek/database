@@ -1,8 +1,8 @@
 <?php
 
-namespace Sruuua\Database\Database\Result;
+namespace Sruuua\Database\Result;
 
-use Sruuua\Database\Database\Result\Interface\ResultInterface;
+use Sruuua\Database\Result\Interface\ResultInterface;
 use \PDO;
 use \PDOStatement;
 

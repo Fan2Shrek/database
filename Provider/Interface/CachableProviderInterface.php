@@ -1,6 +1,6 @@
 <?php
 
-namespace Sruuua\Database\Database\Provider\Interface;
+namespace Sruuua\Database\Provider\Interface;
 
 interface CachableProviderInterface
 {

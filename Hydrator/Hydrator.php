@@ -1,9 +1,9 @@
 <?php
 
-namespace Sruuua\Database\Database\Hydrator;
+namespace Sruuua\Database\Hydrator;
 
-use Sruuua\Database\Database\Hydrator\Exception\SetterNotFoundException;
-use Sruuua\Database\Database\Result\Result;
+use Sruuua\Database\Hydrator\Exception\SetterNotFoundException;
+use Sruuua\Database\Result\Result;
 
 /**
  * Hydrate a result query into an object

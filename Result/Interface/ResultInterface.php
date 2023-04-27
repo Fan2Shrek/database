@@ -1,6 +1,6 @@
 <?php
 
-namespace Sruuua\Database\Database\Result\Interface;
+namespace Sruuua\Database\Result\Interface;
 
 interface ResultInterface
 {

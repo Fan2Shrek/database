@@ -1,9 +1,9 @@
 <?php
 
-namespace Sruuua\Database\Database\Provider;
+namespace Sruuua\Database\Provider;
 
-use Sruuua\Database\Database\Hydrator\Hydrator;
-use Sruuua\Database\Database\Provider\Interface\CachableProviderInterface;
+use Sruuua\Database\Hydrator\Hydrator;
+use Sruuua\Database\Provider\Interface\CachableProviderInterface;
 use Sruuua\Cache\Interface\CachePoolInterface;
 
 abstract class AbstractProvider implements CachableProviderInterface
