@@ -50,7 +50,7 @@ abstract class AbstractProvider implements CachableProviderInterface
         if (null !== $content = $cache->get()) return $content;
 
         $req = $this->connection->prepare("SELECT * from {$this->tableName} WHERE id=?");
-        $req->execute(array($id));
+        $data = $req->execute(array($id));
 
         if (empty($data)) return [];
 
