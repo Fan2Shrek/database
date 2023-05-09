@@ -2,18 +2,19 @@
 
 namespace Sruuua\Database;
 
-use Sruuua\Database\Statement\Statement;
-use App\Kernel;
 use \PDO;
 use \PDOException;
+use Sruuua\Database\Statement\Statement;
 
 final class Connection
 {
     private ?PDO $connection = null;
 
-    public function __construct(Kernel $kernel)
+    private array $env = [];
+
+    public function __construct()
     {
-        $this->connect($kernel->getEnv());
+        $this->connect($_ENV);
     }
 
     public function connect(array $ctx)
@@ -50,5 +51,15 @@ final class Connection
         $this->connection = null;
 
         return $this;
+    }
+
+    public function __serialize(): array
+    {
+        return ['env' => $_ENV];
+    }
+
+    public function __wakeup()
+    {
+        $this->connect($this->env);
     }
 }
