@@ -10,11 +10,11 @@ abstract class AbstractProvider implements CachableProviderInterface
 {
     private CachePoolInterface $cachePool;
 
-    private string $tableName;
+    protected string $tableName;
 
-    private string $class;
+    protected string $class;
 
-    private Hydrator $hydrator;
+    protected Hydrator $hydrator;
 
     protected $connection;
 
